@@ -3,7 +3,7 @@
 
     <NavBar/>
 
-  <section class="grid-col1-2">
+    <section class="grid-col1-2">
         <div class="book-hero-img-wrapper">
           <img class="book-hero-img" :src="books.book1.img2" alt="">
         </div>
@@ -28,7 +28,7 @@
             <img class="book-img" :src="book.img" alt="">
           </div>
           <div>
-            <p class="center-x"> 5/10/20</p>
+            <p class="center-x"> {{ book.date }}</p>
             <!-- <button class="center-x">Click Me</button> -->
           </div>
       <!-- {{ book.title }} -->
@@ -50,6 +50,18 @@
       </div>
     </section>
     
+    <footer>
+
+      <h5>
+        Illustration by <a class="underline" target="_blank" href="https://www.instagram.com/ariadnadraws/"> Ariadna </a>
+      </h5>
+      <h5>
+        Web made with ♥️ by <a class="underline" target="_blank" href="https://eliasruiz.com/"> Elias Ruiz </a>
+      </h5>
+
+    </footer>
+
+
   </div>
 </template>
 
@@ -73,15 +85,18 @@ import NavBar from './components/NavBar.vue'
               title: "Leo y Robert",
               description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut aliquam nulla. Vivamus gravida pharetra dolor ac tempor. Maecenas dapibus convallis sem faucibus rutrum. Mauris vehicula pellentesque elit eu vulputate. Etiam placerat libero et nisl sagittis porta. Nullam sed commodo ex, eu aliquet neque.",
               img: require("@/assets/book_1.jpg"),
-              img2: require("@/assets/book_1.png")
+              img2: require("@/assets/book_1.png"),
+              date: "5/10/20"
             },
             book2:{
               title: "Leo y Robert2",
-              img: require("@/assets/book_1.jpg")
+              img: require("@/assets/book_2.jpg"),
+              date: "25/10/20",
             },
             book3:{
               title: "Leo y Robert3",
-              img: require("@/assets/book_1.jpg")
+              img: require("@/assets/book_1.jpg"),
+              date: "5/11/20",
             },
           }
       }    
@@ -103,6 +118,5 @@ import NavBar from './components/NavBar.vue'
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    margin-top: 60px;
   }
 </style>
