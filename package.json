@@ -10,8 +10,11 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "firebase": "^7.15.5",
+    "markdown-it-vue": "^1.1.3",
     "vanilla-tilt": "^1.7.0",
     "vue": "^2.6.10",
+    "vue-dropdowns": "^1.1.1",
     "vue-markdown": "^2.2.4",
     "vue-tilt.js": "^1.1.1"
   },
