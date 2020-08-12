@@ -28,7 +28,7 @@
             <!-- <h2>¡Recuérdame cuando esté en venta!</h2> -->
 
             <div class="input-grid">
-              <input type="email" value="" name="EMAIL" class="email-box" placeholder="Tu correo electronico" id="mce-EMAIL">
+              <input type="email" value="" name="EMAIL" class="email-box" placeholder="Tu correo electrónico" id="mce-EMAIL">
             
               <div style="position: absolute; left: -5000px;" aria-hidden="true">
                 <input type="text" name="b_e3081c2a7a7b22d3f511a0e72_b7d9d9c042" tabindex="-1" value="">
