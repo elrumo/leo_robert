@@ -1,10 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
-import VueTilt from 'vue-tilt.js'
+import vmodal from 'vue-js-modal'
+
 
 Vue.config.productionTip = false
 
-Vue.use(VueTilt)
+Vue.use(vmodal)
 
 new Vue({
   render: h => h(App),
