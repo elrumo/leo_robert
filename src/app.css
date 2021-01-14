@@ -195,7 +195,8 @@ p{
 }
 
 .margin-top-lg{
-    margin-top: 150px;
+    margin-top: 100px;
+    padding-bottom: 40px;
 }
 
 .grid-col-50-50{
