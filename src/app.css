@@ -110,6 +110,13 @@ button:active {
     backdrop-filter: blur(4px);
 }
 
+.book-text-wraper{
+    padding-top: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 5px;
+}
+
 .vm--modal{
     padding: 30px 60px;
     background: var(--main-pink) !important;
@@ -125,11 +132,12 @@ button:active {
 
 .dialog-grid{
     display: grid;
-    position: absolute;
+    position: relative;
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
-    top: 50%;
+    position: absolute;
     transform: translate(-50%, -50%);
+    top: 50%;
     left: 50%;
     width: 90%;
 }

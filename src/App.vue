@@ -133,19 +133,21 @@
           <div>
             <img class="book-img" :src="book.img" alt="">
           </div>
-          <div>
+          <div class="">
             <p class="center-x" style="padding-bottom: 8px; padding-top: 10px; font-weight: bold;"> ¡Ya en preventa!</p>
             <p class="center-x">  {{ book.date }}</p>
           </div>
         </div>
 
         <div v-if="!book.isBlur" class="">
+          <p class="center-x" style="padding-bottom: 15px; font-weight: bold;"> ¡Ya disponible! </p>
           <div >
             <img class="book-img" :src="book.img" alt="">
           </div>
-          <div>
-            <p class="center-x" style="padding-bottom: 5px; padding-top: 10px; font-weight: bold;"> ¡Ya en preventa! </p>
-            <p class="center-x"> Publicación: {{ book.date }}</p>
+          <div class="book-text-wraper">
+            <button class="filled">Mas información</button>
+            <!-- <p class="center-x" style="padding-bottom: 5px; padding-top: 10px; font-weight: bold;"> ¡Ya en a la venta! </p> -->
+            <!-- <p class="center-x"> Haz click para ver mas.</p> -->
           </div>
         </div>
       </div>
